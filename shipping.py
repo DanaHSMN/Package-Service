@@ -1,5 +1,7 @@
 #Initial greeting, weight input, and shipping type selection
 response = input("Welcome! Would you like to ship a package today? Please enter yes or no.")  
+weight = 0
+shipping_type = ""
  
 if response == "yes": 
     weight = input("Great! Please enter the weight of your package.")
